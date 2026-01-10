@@ -850,7 +850,7 @@ h5 {
     padding-top: 45px;
 }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
 #Home {
     height: 550px;
 }
@@ -1010,13 +1010,13 @@ input {
     font-size: xx-large;
 }
 }
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 #Home {
-    width: 150%;
+    width: 155%;
     height: 520px;
 }
 #toolbar {
-    width: 100%;
+    width: 85%;
     padding-top: 12px;
 }
 #hire {
@@ -1034,9 +1034,10 @@ a {
 #box {
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
+    width: 400px;
 }
 #box1 {
-    margin-left: 130px;
+    margin-left: 100px;
     margin-top: 130px;
 }
 h3 {
