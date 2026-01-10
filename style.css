@@ -13,6 +13,8 @@ html {
     overflow: hidden;
 }
 #toolbar {
+    background-color: rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0px 10px black;
     width: 100%;
     display: flex;
     padding: 5px;
@@ -1013,82 +1015,67 @@ input {
 @media screen and (max-width: 425px) {
 #Home {
     width: 150%;
-    height: 520px;
+    height: 730px;
+    overflow: hidden;
 }
 #toolbar {
     width: 100%;
-    padding-top: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-#hire {
-    padding: -5px;
-    margin-top: -7px;
-}
-hr {
+#hire, hr {
     display: none;
 }
 a {
     font-size: medium;
-    margin-top: -4px;
+    margin-top: 0px;
     padding-top: 10px;
 }
 #s1 , h1 {
     font-size: xx-large;
 }
-#box {
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: none;
-    width: 400px;
-}
-#box1 {
-    margin-left: 100px;
-    margin-top: 130px;
-}
-h3 {
-    margin-top: -130px;
-    margin-left: 10px;
-}
-#name1> span, #name2>span {
-    font-size: xx-large;
-}
-#name1 {
-    display: inline;
-    margin-top: 50px;
-}
-#name2 {
-    display: inline;
-    margin-top: -80px;
-    margin-right: 100px;
-}
-#connect {
-    margin-top: 20px;
-    margin-bottom: -60px;
-}
-#image {
-    width: 230px;
-    height: 230px;
-    margin-top: 160px;
-    margin-right: 20px;
-}
-#photo {
-    width: 230px;
-    height: 230px;
-}
-.fa-instagram, .fa-whatsapp, .fa-github, .fa-linkedin {
-    margin-top: 80px;
-}
-#name {
-    font-size: xx-large;
-    margin-right: -40px;
-    margin-top: -120px;
-}
-marquee {
-    margin-top: 50px;
-    width: 300px;
-}
+    #mainbox {
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    #box {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
+    #box1 {
+        margin-top: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        margin-left: 120px;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    #name {
+        margin-top: -500px;
+        padding-right: 160px;
+        font-size: 2.5pc;
+    }
+    #image {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    #photo {
+        width: 250px;
+        height: 250px;
+    }
+    marquee {
+        width: 500px;
+    }
 #About {
     width: 150%;
     height: 650px;
     margin-top: -2px;
+    overflow: hidden;
 }
 #box2 {
     background-image: none;
@@ -1137,16 +1124,26 @@ h2> span {
     width: 450px;
 }
 #card1> img, #card2> img {
-    width: 300px;
+    width: 450px;
     height: 200px;
 }
 #card3> img {
-    width: 370px;
+    width: 450px;
     height: 200px;
 }
 #cardname {
     margin-top: 30px;
     font-size: xxx-large;
+}
+.hidden> p {
+    font-size: x-large;
+}
+.hidden> img {
+    width: 400px;
+    height: 250px;
+}
+.hidden> #cardname {
+    margin-top: 60px;
 }
 #Skills {
     width: 150%;
@@ -1172,34 +1169,71 @@ display: none;
 }
 #Contact {
     width: 150%;
-    height: 630px;
+    height: 94pc;
     overflow: hidden;
     margin-top: -2px;
 }
-.lastheading {
-    margin-top: -50px;
-}
-form {
-    margin-left: 20px;
-}
-#contacttext> h1 {
-    font-size: x-large;
-}
-#core {
-    font-size: xx-large;
-}
-#bottom {
-    height: 170px;
-}
-#botcenter {
-    width: 400px;
-}
-#botcenter> h5 {
-    margin-bottom: -45px;
-}
-#sb1 {
-    display: none;
-}
+    #contactbox {
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    form {
+        width: 500px;
+        height: 550px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    form> input {
+        width: 450px;
+        height: 40px;
+    }
+    #input3 {
+        width: 450px;
+        height: 150px;
+    }
+    #contacttext> h1 {
+        font-size: xxx-large;
+    }
+    form> label {
+        font-size: xx-large;
+    }
+    #Message {
+        width: 450px;
+        height: 40px;
+        font-size: x-large;
+        margin-left: 0px;
+    }
+    #contacttext {
+        margin-top: 20px;
+        font-size: large;
+    }
+    #contacttext2> label {
+        width: 500px;
+        height: 40px;
+        font-size: x-large;
+    }
+    #bottom {
+        flex-direction: column;
+        height: 270px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    #botcenter {
+        margin: auto;
+        width: 400px;
+        text-align: center;
+    }
+    #botcenter > h5 {
+        margin-top: -20px;
+        font-size: larger;
+    }
+    #botcenter> text p {
+        font-size: large;
+    }
+    #sb1 {
+        margin-top: -40px;
+    }
 }
 @media screen and (max-width: 375px) {
     #Home {
@@ -1208,16 +1242,18 @@ form {
     }
     #toolbar {
         width: 100%;
+        margin-top: -1px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    #toolbar > h2 {
-        font-size: large;
-        margin-top: 5px;
+    #toolbar > h2, h2> #s1 {
+        margin-top: 3px;
+        font-size: x-large;
+        margin-bottom: 3px;
     }
     #toolbar> a {
         font-size: small;
-        margin-top: -4px;
+        margin-top: -2px;
         margin-left: -10px;
         padding-top: 10px;
         width: 60px;
@@ -1272,7 +1308,7 @@ form {
     }
     #About {
         width: 120%;
-        height: 700px;
+        height: 650px;
     }
     #image2 {
         width: 400px;
@@ -1292,11 +1328,10 @@ form {
     }
     #paragraph {
         font-size: large;
-        width: 420px;
+        width: 310px;
         height: 470px;
-        margin-left: -300px;
-        margin-right: 0px;
-        margin-top: 220px;
+        margin-left: 100px;
+        margin-top: 180px;
         padding-left: 5px;
         background-color: rgba(0, 0, 0, 0.555);
     }
@@ -1317,16 +1352,21 @@ form {
     #cardname {
         margin-top:70px;
     }
+    .hidden> p {
+        font-size: large;
+    }
     #Skills {
         width: 120%;
-        height: 600px;
+        height: 550px;
     }
     #skillbox {
         margin: auto;
-        margin-top: -20px;
-        padding-top: 70px;
         width: 400px;
-        padding-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #skillbox> h1 {
+        margin-top: -20px;
     }
     .label> span {
         font-size: large;
@@ -1339,7 +1379,7 @@ form {
     }
     #Contact {
         width: 120%;
-        height: 84pc;
+        height: 86pc;
     }
     #contactbox {
         margin: auto;
@@ -1352,12 +1392,33 @@ form {
         margin-top: 50px;
         margin-bottom: 20px;
     }
+    form> label {
+        font-size: x-large;
+    }
+    form> input {
+        width: 350px;
+        height: 35px;
+    }
+    #input3 {
+        width: 350px;
+        height: 120px;
+    }
+    #Message {
+        width: 350px;
+        height: 35px;
+        font-size: large;
+    }
     #contacttext> h1 {
         font-size: xx-large;
     }
     #contacttext {
+        margin: auto;
         margin-top: 20px;
         font-size: large;
+    }
+    #contacttext2> label{
+        width: 400px;
+        font-size: larger;
     }
     #bottom {
         flex-direction: column;
@@ -1392,8 +1453,8 @@ form {
         padding-left: 10px;
         padding-right: 10px;
     }
-    #toolbar > h2 {
-        font-size: medium;
+    #toolbar > h2, h2>#s1 {
+        font-size: x-large;
     }
     #toolbar> a {
         font-size: small;
@@ -1406,7 +1467,7 @@ form {
     }
     #About {
         width: 135%;
-        height: 700px;
+        height: 650px;
         margin-top: -3px;
         margin-bottom: -3px;
     }
@@ -1422,11 +1483,9 @@ form {
     }
     #skillbox {
         padding: 10px;
-        padding-top: 40px;
         width: 380px;
         height: 500px;
-        margin-top: -3px;
-        margin-bottom: -3px;
+        padding-top: 70px;
     }
     #skillbox> h1 {
         font-size: xx-large;
@@ -1441,14 +1500,14 @@ form {
     }
     #Contact {
         width: 135%;
-        height: 80pc;
+        height: 81pc;
         margin-top: -3px;
     }
     form {
         width: 350px;
         height: 460px;
     }
-    input {
+    form> input {
         width: 300px;
     }
     #input3 {
