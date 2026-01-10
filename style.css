@@ -1112,10 +1112,10 @@ marquee {
 #paragraph {
     background-color: rgba(0, 0, 0, 0.603);
     margin-top: 170px;
-    margin-left: 120px;
-    width: 420px;
+    margin-left: 170px;
+    width: 430px;
     position: absolute;
-    height: 450px;
+    height: 480px;
     padding-left: 15px;
 }
 h2> span {
