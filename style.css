@@ -14,7 +14,7 @@ html {
 }
 #toolbar {
     background-color: rgba(0, 0, 0, 0.144);
-    box-shadow: 0 0px 10px black;
+    box-shadow: 0 0px 11px black;
     width: 100%;
     display: flex;
     padding: 5px;
