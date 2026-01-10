@@ -1100,6 +1100,7 @@ a {
     background-color: rgba(0, 0, 0, 0.603);
     margin-top: 170px;
     margin-left: 170px;
+    margin-right: 10px;
     width: 430px;
     position: absolute;
     height: 480px;
@@ -1193,7 +1194,7 @@ display: none;
         height: 150px;
     }
     #contacttext> h1 {
-        font-size: xxx-large;
+        font-size: xx-large;
     }
     form> label {
         font-size: xx-large;
@@ -1215,7 +1216,7 @@ display: none;
     }
     #bottom {
         flex-direction: column;
-        height: 270px;
+        height: 280px;
         text-align: center;
         margin-top: 60px;
     }
@@ -1228,12 +1229,20 @@ display: none;
         margin-top: -20px;
         font-size: larger;
     }
+    #botcenter> text {
+        font-size: medium;
+    }
     #botcenter> text p {
         font-size: large;
     }
     #sb1 {
-        margin-top: -40px;
+        margin-top: -50px;
     }
+}
+@media screen and (max-width:412px) {
+    #name {
+        padding-right: 140px;
+        }    
 }
 @media screen and (max-width: 375px) {
     #Home {
