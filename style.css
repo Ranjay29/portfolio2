@@ -1016,7 +1016,7 @@ input {
     height: 520px;
 }
 #toolbar {
-    width: 90%;
+    width: 100%;
     padding-top: 12px;
 }
 #hire {
@@ -1117,23 +1117,28 @@ marquee {
     position: absolute;
     height: 480px;
     padding-left: 15px;
+    font-size: large;
 }
 h2> span {
     font-size: x-large;
 }
 #Myworks {
     width: 150%;
+    height: 100%;
     margin-top: -2px;
 }
-#card1, #card2 {
-    width: 300px;
+#card {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+}
+#card1, #card2, #card3 {
+    width: 450px;
 }
 #card1> img, #card2> img {
     width: 300px;
     height: 200px;
-}
-#card3 {
-    width: 350px;
 }
 #card3> img {
     width: 370px;
@@ -1141,15 +1146,17 @@ h2> span {
 }
 #cardname {
     margin-top: 30px;
+    font-size: xxx-large;
 }
 #Skills {
     width: 150%;
-    height: 500px;
+    height: 520px;
     margin-top: -2px;
 }
 #skillbox {
+    margin: auto;
     padding-top: 55px;
-    width: 350px;
+    width: 500px;
 }
 #skillbox> h1 {
     font-size: xx-large;
@@ -1158,11 +1165,10 @@ h2> span {
     font-size: large;
 }
 #sideimg {
-    width: 250px;
-    height: 500px;
+display: none;
 }
 .bar {
-    width: 250px;
+    width: 450px;
 }
 #Contact {
     width: 150%;
