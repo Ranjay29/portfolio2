@@ -1012,16 +1012,19 @@ input {
 }
 @media screen and (max-width: 425px) {
 #Home {
-    width: 155%;
+    width: 150%;
     height: 520px;
 }
 #toolbar {
-    width: 85%;
+    width: 90%;
     padding-top: 12px;
 }
 #hire {
     padding: -5px;
     margin-top: -7px;
+}
+hr {
+    display: none;
 }
 a {
     font-size: medium;
