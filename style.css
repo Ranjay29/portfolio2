@@ -1037,13 +1037,13 @@ input {
     display: none;
 }
 a {
-    font-size: small;
+    font-size: medium;
     margin-top: 0px;
-    padding-top: 7px;
-    width: 60px;
+    padding-top: 8px;
+    width: 80px;
 }
 #s1 , #toolbar> h2 {
-    font-size: x-large;
+    font-size: xx-large;
 }
     #mainbox {
         display:flex;
