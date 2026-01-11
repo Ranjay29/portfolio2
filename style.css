@@ -1592,6 +1592,9 @@ display: none;
         width: 300px;
         margin-left: 0px;
     }
+    #contacttext2> label {
+        width: 350px;
+    }
     #bottom {
         height: 200px;
     }
