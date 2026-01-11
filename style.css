@@ -1033,8 +1033,8 @@ input {
     padding-left: 10px;
     padding-right: 10px;
 }
-#hire {
-    width: 80px;
+#hire, hr  {
+    display: none;
 }
 a {
     font-size: small;
