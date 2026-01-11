@@ -1033,16 +1033,17 @@ input {
     padding-left: 10px;
     padding-right: 10px;
 }
-hr {
-    display: none;
+#hire {
+    width: 80px;
 }
 a {
     font-size: small;
     margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 7px;
+    width: 60px;
 }
-#s1 , h1 {
-    font-size: xx-large;
+#s1 , #toolbar> h2 {
+    font-size: x-large;
 }
     #mainbox {
         display:flex;
@@ -1171,9 +1172,12 @@ h2> span {
     font-size: xxx-large;
 }
 .hidden> p {
-    font-size: x-large;
+    font-size: large;
     padding: 20px;
     margin-top: -10px;
+}
+p> b {
+    font-size: x-large;
 }
 .hidden> img {
     width: 400px;
