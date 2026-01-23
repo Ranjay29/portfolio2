@@ -20,8 +20,7 @@ html {
     padding: 5px;
     justify-content: space-around;
     position: fixed;
-    animation-name: move;
-    animation-duration: 3s;
+    animation: move 3s;
     z-index: 1;
 }
 @keyframes move {
