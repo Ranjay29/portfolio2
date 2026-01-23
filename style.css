@@ -1028,12 +1028,26 @@ input {
 }
 #toolbar {
     width: 100%;
+    height: 50px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-#hire, hr  {
+hr  {
     display: none;
+}
+#hire {
+    margin-top: 60px;
+    margin-right: 20px;
+    padding: 30px;
+    padding-top: 4px;
+    font-size: large;
+}
+.menu5 {
+    margin-right: -120px;
+}
+#hire> a {
+    margin-left: -23px;
 }
 a {
     font-size: medium;
@@ -1323,10 +1337,10 @@ display: none;
         margin-left : 10px;
         margin-right : 10px;
     }
-    #toolbar> #hire {
-        display: none;
+    .menu5 {
+        margin-right: 0px;
     }
-    hr {
+    #toolbar> #hire, hr {
         display: none;
     }
     #mainbox {
